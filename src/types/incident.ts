@@ -8,9 +8,24 @@ export type VerificationStatus =
   | 'duplicate'
 export type SourceType = 'official' | 'public' | 'citizen' | 'social' | 'ai_inferred'
 export type WeatherEvent =
-  | 'Heavy Rainfall' | 'Flood' | 'Flash Flood' | 'Thunderstorm' | 'Lightning'
-  | 'Cyclone' | 'Heatwave' | 'Cold Wave' | 'Fog' | 'Dust Storm'
-  | 'Strong Winds' | 'Waterlogging' | 'Hailstorm' | 'Coastal Surge' | 'Other'
+  | 'Heavy Rainfall'
+  | 'Flood'
+  | 'Flash Flood'
+  | 'Thunderstorm'
+  | 'Lightning'
+  | 'Cyclone'
+  | 'Heatwave'
+  | 'Cold Wave'
+  | 'Fog'
+  | 'Dust Storm'
+  | 'Strong Winds'
+  | 'Waterlogging'
+  | 'Road Blocked'
+  | 'Fallen Tree'
+  | 'Property Damage'
+  | 'Hailstorm'
+  | 'Coastal Surge'
+  | 'Other'
 
 export interface EvidenceFactor {
   label: string
